@@ -1,0 +1,131 @@
+body {
+    background-image: url(./training-828726_1280.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+  .left {
+    color: white;
+    display: inline-block;
+    width: 20vw;
+    height: 20vh;
+    position:relative;
+    top:-3vh;
+  }
+  .left img {
+    border: 0.5vw solid red;
+    width: 15vh;
+    border-radius: 8vw;
+    position: relative;
+    left: 1vw;
+    top:2vw;
+  }
+  .left img:hover{
+    width:20vh;
+  }
+  h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  .mid {
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top:-21vh;
+  }
+  a{
+    color:white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    margin:20px;
+    padding:5px;
+  }
+  a:hover{
+    color:red;
+  }
+  .right {
+    width:13vw;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 3vw;
+    border:0px solid greenyellow;
+    border-radius: 55px;
+    top:-118px;
+    color:black;
+    background-color: rgb(112, 232, 112);
+    text-align: center;
+  }
+  .right:hover{
+    color:red;
+  }
+  h2{
+    color:white;
+    font-size:75px;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: relative;
+    top:-25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container{
+    width:30vw;
+    height:20vh;
+    color:white;
+    font-size:15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: relative;
+    top:-40vh;
+    left:34vw;
+    text-align: center;
+  }
+  .member {
+    width:30vw;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 35vw;
+    border:4px solid greenyellow;
+    border-radius: 12px;
+    top:-60px;
+    color:rgb(116, 243, 152);
+    text-align: center;
+  }
+  .member:hover{
+    color:red;
+  }
+  form{
+    width:27vw;
+    text-align:center;
+    margin-left:410px;
+    padding:15px;
+  }
+  form input{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: medium;
+    width:25vw;
+    margin:1vh;
+    height:5vh;
+    border: 4px solid rgb(178, 211, 17);
+    border-radius: 10px;
+  }
+  form input:hover{
+    color:rgb(206, 20, 216);
+    background-color: rgb(198, 219, 34);
+  }
+  footer{
+    color:white;
+    text-align: center;
+    position:relative;
+    top:20px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  h3{
+    color:white;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 2vw;
+  }

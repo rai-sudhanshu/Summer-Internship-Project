@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px){
+    .sam{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mid{
+        top: -5vh;
+    }
+
+    body{
+        background-color: rgb(158, 128, 128);
+        background-image: none;
+    }
+
+    .left h1{
+        display: none;
+    }
+
+    .container{
+        width: 75vw;
+        left: 18vw;
+    }
+
+    .member{
+        top:37px;
+    }
+
+    form{
+        width: 28vw;
+        position:relative;
+        left: -320px;
+        top:51px;
+    }
+
+    form input{
+        width:47vw;
+    }
+}
